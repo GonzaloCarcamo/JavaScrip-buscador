@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Search</title>
+</head>
+
+<body>
+
+    <form action="" class="form-group">
+
+        <input onkeyup="filter()" id="search" type="text" 
+        placeholder="buscador de capitales..." class="form-control my-4 container text-center">
+
+    </form>
+
+
+    <table class="table">
+
+        <thead class="thead-dark">
+
+            <tr>
+                <th>Pais</th>
+                <th>Capital</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Albania</td>
+                <td>Tirana</td>
+            </tr>
+
+            <tr>
+                <td>Alemania</td>
+                <td>Berlin</td>
+            </tr>
+
+            <tr>
+                <td>Andorra</td>
+                <td>Andorra la Vieja</td>
+            </tr>
+
+            <tr>
+                <td>Armenia</td>
+                <td>Erevan</td>
+            </tr>
+
+            <tr>
+                <td>Austria</td>
+                <td>Viena</td>
+            </tr>
+
+            <tr>
+                <td>Azerbaijan</td>
+                <td>Baku</td>
+            </tr>
+
+            <tr>
+                <td>Belgica</td>
+                <td>Bruselas</td>
+            </tr>
+
+            <tr>
+                <td>Bielorrusia</td>
+                <td>Minsk</td>
+            </tr>
+
+            <tr>
+                <td>Bosnia-Herzegovina</td>
+                <td>Sarajevo</td>
+            </tr>
+
+            <tr>
+                <td>Bulgaria</td>
+                <td>Sofia</td>
+            </tr>
+
+            <tr>
+                <td>Chipre</td>
+                <td>Nicosia</td>
+            </tr>
+
+            <tr>
+                <td>Ciudad del Vaticano</td>
+                <td>Ciudad del Vaticano</td>
+            </tr>
+
+            <tr>
+                <td>Croacia</td>
+                <td>Zagreb</td>
+            </tr>
+
+            <tr>
+                <td>Dinamarca</td>
+                <td>Copenhague</td>
+            </tr>
+
+            <tr>
+                <td>Eslovaquia</td>
+                <td>Bratislava</td>
+            </tr>
+
+            <tr>
+                <td>Eslovenia</td>
+                <td>Liubliana</td>
+            </tr>
+
+            <tr>
+                <td>España</td>
+                <td>Madrid</td>
+            </tr>
+
+            <tr>
+                <td>Estonia</td>
+                <td>Tallin</td>
+            </tr>
+
+            <tr>
+                <td>Rusia</td>
+                <td>Moscu</td>
+            </tr>
+
+            <tr>
+                <td>Finlandia</td>
+                <td>Helsinki</td>
+            </tr>
+
+            <tr>
+                <td>Francia</td>
+                <td>Paris</td>
+            </tr>
+
+            <tr>
+                <td>Georgia</td>
+                <td>Tiflis</td>
+            </tr>
+
+            <tr>
+                <td>Grecia</td>
+                <td>Atenas</td>
+            </tr>
+
+            <tr>
+                <td>Hungria</td>
+                <td>Budapest</td>
+            </tr>
+
+            <tr>
+                <td>Irlanda</td>
+                <td>Dublin</td>
+            </tr>
+
+            <tr>
+                <td>Islandia</td>
+                <td>Reikiavik</td>
+            </tr>
+
+            <tr>
+                <td>Italia</td>
+                <td>Roma</td>
+            </tr>
+
+            <tr>
+                <td>Kazajistán</td>
+                <td>Astana</td>
+            </tr>
+
+            <tr>
+                <td>Letonia</td>
+                <td>Riga</td>
+            </tr>
+
+            <tr>
+                <td>Liechtenstein</td>
+                <td>Vaduz</td>
+            </tr>
+
+            <tr>
+                <td>Lituania</td>
+                <td>Vilna</td>
+            </tr>
+
+            <tr>
+                <td>Luxemburgo</td>
+                <td>Luxemburgo</td>
+            </tr>
+
+            <tr>
+                <td>Macedonia del Norte</td>
+                <td>Skopie</td>
+            </tr>
+
+            <tr>
+                <td>Malta</td>
+                <td>La Valeta</td>
+            </tr>
+
+            <tr>
+                <td>Moldova</td>
+                <td>Chisinau</td>
+            </tr>
+
+            <tr>
+                <td>Monaco</td>
+                <td>Monaco</td>
+            </tr>
+
+            <tr>
+                <td>Montenegro</td>
+                <td>Podgorica</td>
+            </tr>
+
+            <tr>
+                <td>Noruega</td>
+                <td>Oslo</td>
+            </tr>
+
+            <tr>
+                <td>Paises Bajos</td>
+                <td>Amsterdam</td>
+            </tr>
+
+            <tr>
+                <td>Polonia</td>
+                <td>Varsovia</td>
+            </tr>
+
+            <tr>
+                <td>Portugal</td>
+                <td>Lisboa</td>
+            </tr>
+
+            <tr>
+                <td>Reino Unido</td>
+                <td>Londres</td>
+            </tr>
+
+            <tr>
+                <td>Republica Checa</td>
+                <td>Praga</td>
+            </tr>
+
+            <tr>
+                <td>Rumania</td>
+                <td>Bucarest</td>
+            </tr>
+
+            <tr>
+                <td>San Marino</td>
+                <td>San Marino</td>
+            </tr>
+
+            <tr>
+                <td>Serbia</td>
+                <td>Belgrado</td>
+            </tr>
+
+            <tr>
+                <td>Suecia</td>
+                <td>Estocolmo</td>
+            </tr>
+
+            <tr>
+                <td>Suiza</td>
+                <td>Berna</td>
+            </tr>
+
+            <tr>
+                <td>Ucrania</td>
+                <td>Kiev</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
